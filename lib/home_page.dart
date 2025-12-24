@@ -45,18 +45,6 @@ class _HomepageState extends State<Homepage> {
     );
     box.add(
       Complaint(
-        id: '#COMP-2023-745',
-        title: 'Cafeteria Sanitation Issue',
-        description: 'Tables are not cleaned properly.',
-        category: 'Sanitation / Hygiene',
-        date: DateTime(2023, 9, 12),
-        status: 'RESOLVED',
-        studentName: 'Alex Smith',
-        studentId: '12345678',
-      ),
-    );
-    box.add(
-      Complaint(
         id: '#COMP-2023-901',
         title: 'Library Wi-Fi Connectivity',
         description: 'Cannot connect to Eduroam.',
@@ -108,6 +96,7 @@ class _HomepageState extends State<Homepage> {
             fontSize: 28, // Slightly larger as per designs
           ),
         ),
+
         leading: IconButton(
           icon: const Icon(Icons.account_circle, color: Colors.white, size: 28),
           onPressed: () {
